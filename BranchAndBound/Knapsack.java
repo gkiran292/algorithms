@@ -1,6 +1,19 @@
 import java.io.*;
 import java.util.*;
 
+/**
+ * To run the program
+ *
+ * Sample file:
+ * name skill rate
+ * Parshurama 25 30
+ * Vishwamitra 12 50
+ * Bhishma 50 101
+ * Krishna 1 5
+ * Jesus 45 80
+ * java Knapsack <filename> <MaximumSkill>
+ */
+
 public class Knapsack {
 
     private static double maxProfit = 0.0;
