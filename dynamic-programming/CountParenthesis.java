@@ -32,7 +32,7 @@ public class CountParenthesis {
     }
 
     public static void main(String[] args) {
-        String str = "yupi";
+        String str = "yupipop";
         int[] result = new int[str.length()+1];
 
         Arrays.fill(result, 0);
